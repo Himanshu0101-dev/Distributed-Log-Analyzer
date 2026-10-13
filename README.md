@@ -1,4 +1,4 @@
-# MNCs Related statement and solution
+
 Distributed-Log-Analyzer
 
 
