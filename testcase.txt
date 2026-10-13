@@ -1,0 +1,16 @@
+Testcase 1 
+python
+print(log_analyzer(["INFO", "ERROR", "INFO", "WARN", "ERROR"]))
+Input Logs: ["INFO", "ERROR", "INFO", "WARN", "ERROR"]
+
+Expected Output:
+python
+{'INFO': 2, 'WARN': 1, 'ERROR': 2}
+
+Testcase 2
+python
+print(log_analyzer(["INFO", "INFO", "INFO"]))
+Input Logs: ["INFO", "INFO", "INFO"]
+
+Expected Output:
+{'INFO': 3, 'WARN': 0, 'ERROR': 0}
